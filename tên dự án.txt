@@ -1,0 +1,17 @@
+** Tên dự án **
+
+-- trang cá nhân và trang website thương mại code --
+
+// --- --- //
+
+** Lập trình viên Thực hiện **
+
+-- Tác giả : ★°izy.MiwXinh°♡ - iZyMiw Dev --
+
+- dự án được theo tên swt được đặt trên đầu cú pháp của dự án theo quy tắc bắt buộc -
+
+** toàn bộ source được tạo ra bằng mã nguồn mở **
+
+-------------- Hết ---------------
+
+** phiên bản web: v1.0.0.1 Test **

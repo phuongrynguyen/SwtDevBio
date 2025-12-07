@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>★°izy.MiwXinh°♡ - Home</title>
+    <meta property="og:title" content="★°izy.MiwXinh°♡ | Profile Home">
+    <link rel="shortcut icon"
+        href="https://sf-static.upanhlaylink.com/img/image_20251120c7e15200b8baf1753b8046f217df2299.jpg"
+        type="image/x-icon">
+    <meta name="description" content="Hi my name is ★°izy.MiwXinh°♡ Dev / A freelance / web developer / vexer">
+    <meta name="keywords"
+        content="★°izy.MiwXinh°♡,web ★°izy.MiwXinh°♡,★°izy.MiwXinh°♡,★°izy.MiwXinh°♡,wsteam,wusteam,★°izy.MiwXinh°♡ home,profile ★°izy.MiwXinh°♡">
+    <!-- <link rel="canonical" href="https://"> -->
+    <meta content="★°izy.MiwXinh°♡ Dev" name="author">
+    <meta property="og:type" content="website">
+    <meta content="#FCFCFD" name="theme-color">
+    <meta property="og:image"
+        content="https://sf-static.upanhlaylink.com/img/image_20251120c7e15200b8baf1753b8046f217df2299.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css?v=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="card-jZyProfile" id="card">
+                <!-- header -->
+                <div class="head">
+                    <div class="logo">
+                        <a href="index.html">
+                            ★°izy.MiwXinh°♡
+                        </a>
+                    </div>
+                    <div class="moon-tergril">
+                        <i class="ri-moon-clear-line" id="TerGril"></i>
+                    </div>
+                    <script>
+                        let TerGril = document.getElementById("TerGril");
+                        let show = false;
+
+                        TerGril.addEventListener('click', function () {
+                            show = !show;
+                            show ? dark() : light();
+                        });
+
+                        function dark() {
+                            if (TerGril.classList.contains('ri-moon-clear-line')) {
+                                TerGril.classList.add("ri-sun-line");
+                                TerGril.classList.remove("ri-moon-clear-line");
+                                document.querySelector(".card-jZyProfile").style.background = "#111";
+                                document.querySelector(".card-jZyProfile").style.transitionDuration = "0.8s";
+
+                                document.body.style.background = "#111";
+                                document.querySelector(".h1Name").style.color = "#fff";
+                                document.querySelector(".h4").style.color = "#fff";
+                            }
+                            document.querySelector(".mp3").style.background = "#111";
+                            document.querySelector(".widMax").style.background = "#111";
+                            document.querySelector(".mp3").style.transitionDuration = "0.8s";
+                            document.querySelector(".mp3").style.color = "#fff";
+                        }
+
+                        function light() {
+                            if (TerGril.classList.contains('ri-sun-line')) {
+                                TerGril.classList.remove("ri-sun-line");
+                                TerGril.classList.add("ri-moon-clear-line");
+                                document.querySelector(".card-jZyProfile").style.background = "#ffffff";
+                                document.querySelector(".h1Name").style.color = "#111";
+                                document.querySelector(".h4").style.color = "#111";
+                                document.querySelector(".mp3").style.background = "#fff";
+                                document.querySelector(".widMax").style.background = "#fff";
+                                document.querySelector(".mp3").style.color = "#333333";
+                                document.querySelector(".mp3").style.transitionDuration = "0.8s";
+
+                                document.querySelector(".card-jZyProfile").style.transitionDuration = "0.8s";
+                                document.body.style.background = "#ffffff";
+                            }
+                        }
+                    </script>
+                </div>
+                <!-- avatar -->
+                <div class="avatar">
+                    <img src="https://sf-static.upanhlaylink.com/img/image_20251120c7e15200b8baf1753b8046f217df2299.jpg"
+                        alt="avatar.png">
+                </div>
+                <!-- name -->
+                <div class="name">
+                    <h1 class="h1Name">
+                        ★°izy.MiwXinh°♡
+                    </h1>
+                </div>
+                <!-- blog panner -->
+                <div class="BlogPanner">
+                    <span>
+                        Lời nói gió bay, hứa càng hay chia tay càng thấm
+                    </span>
+                    <span>
+                        <i class="ri-map-pin-line"></i> Viet Nam/ Ha Noi CiTy
+                    </span>
+                </div>
+                <!-- blog proText -->
+                <div class="BlogTextPro">
+                    <div class="boxTerBlog">
+                        <h4 class="h4">
+                            Blog
+                        </h4>
+                    </div>
+                    <div class="boxTerTextBlog">
+                        <span class="active">
+                            Developer/ Designer/Vexer
+                        </span>
+                        <span>
+                            Hello, My name is ★°izy.MiwXinh°♡ | am member of WusTeam and a freelance programmer, with a
+                            passion
+                            for coding driven by pure interest. My main interest lies in fon-end, back-end. | enjoy
+                            overthinking.♡
+                        </span>
+                    </div>
+                </div>
+                <!-- btn link mang xa hoi ca nhan -->
+                <div class="btnLinkMH">
+                    <div class="card-item">
+                        <div class="itemBtn">
+                            <a href="https://www.facebook.com/share/181Tj1fvTh/" target="_blank">
+                                <i class="fa-brands fa-square-facebook" title="Facebook ★°izy.MiwXinh°♡"></i>
+                            </a>
+                        </div>
+                        <div class="itemBtn">
+                            <a href="mailto:kythuatvienitgame@gmail.com" target="_blank">
+                                <i class="fa-solid fa-envelope" title="Gmail ★°izy.MiwXinh°♡"></i>
+                            </a>
+                        </div>
+                        <div class="itemBtn">
+                            <a href="https://zalo.me/0326203651" target="_blank">
+                                <i class="fa-brands fa-twitch" title="Zalo ★°izy.MiwXinh°♡"></i>
+                            </a>
+                        </div>
+                        <div class="itemBtn">
+                            <a href="swtᴍⁱᵘsⁱᵉ̂ᵘxⁱⁿʰ.html" target="_blank">
+                                <i class="ri-svelte-fill" title="Download Source Code"></i>
+                            </a>
+                        </div>
+                        <div class="itemBtn">
+                        <a href="https://www.instagram.com/_vtb.vytieubang?igsh=dHpmZDNrdGNkbjdm" target="_blank" title="instagram   ★°izy.MiwXinh°♡">
+                            <i class="ri-instagram-line"></i>
+                        </a>    
+                        </div>
+                        <div class="itemBtn">
+                            <a href="https://www.tiktok.com/@vuithicode.vtcd?_r=1&_t=ZS-91Z3HQhETmq" target="_blank">
+                                <i class="fa-brands fa-tiktok" title="Tiktok ★°izy.MiwXinh°♡"></i>
+                            </a>
+                        </div>
+                        <div class="itemBtn">
+                        <a href="#">
+                            <i class="fa-solid fa-music" id="music"></i>
+                        </a>    
+                        </div>
+                    </div>
+                </div>
+                <!-- up anh  -->
+                <div class="Update-img">
+                    <img src="https://sf-static.upanhlaylink.com/img/image_20251120c7e15200b8baf1753b8046f217df2299.jpg"
+                        alt="avatar.png">
+                    <img src="https://sf-static.upanhlaylink.com/img/image_20251120c7e15200b8baf1753b8046f217df2299.jpg"
+                        alt="avatar.png">
+                    <img src="https://sf-static.upanhlaylink.com/img/image_20251120c7e15200b8baf1753b8046f217df2299.jpg"
+                        alt="avatar.png">
+                    <img src="https://sf-static.upanhlaylink.com/img/image_20251120c7e15200b8baf1753b8046f217df2299.jpg"
+                        alt="avatar.png">
+                    <img src="https://sf-static.upanhlaylink.com/img/image_20251120c7e15200b8baf1753b8046f217df2299.jpg"
+                        alt="avatar.png">
+                    <img src="https://sf-static.upanhlaylink.com/img/image_20251120c7e15200b8baf1753b8046f217df2299.jpg"
+                        alt="avatar.png">
+                </div>
+                <!-- coding log -->
+                <div class="TypeBoxColing">
+                    <!-- Web -->
+                    <div class="weeb">
+                        <h3>Web</h3>
+                        <div class="boxItem">
+                            <div class="itemcliaCode">
+                                Vua.js
+                            </div>
+                            <div class="itemcliaCode">
+                                Nuxt.js
+                            </div>
+                            <div class="itemcliaCode">
+                                Node.js
+                            </div>
+                            <div class="itemcliaCode">
+                                React.js
+                            </div>
+                            <div class="itemcliaCode">
+                                TypeScript
+                            </div>
+                            <div class="itemcliaCode">
+                                JavaScript
+                            </div>
+                            <div class="itemcliaCode">
+                                CSS
+                            </div>
+                            <div class="itemcliaCode">
+                                HTML
+                            </div>
+                            <div class="itemcliaCode">
+                                PHP
+                            </div>
+                            <div class="itemcliaCode">
+                                SCSS
+                            </div>
+                            <div class="itemcliaCode">
+                                TAILWINDCSS
+                            </div>
+                            <div class="itemcliaCode">
+                                BOOPTRAP
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Programming / App - Game -->
+                    <div class="weeb">
+                        <h3>Programming / App - Game</h3>
+                        <div class="boxItem">
+                            <div class="itemcliaCode">
+                                Python
+                            </div>
+                            <div class="itemcliaCode">
+                                PyTorch
+                            </div>
+                            <div class="itemcliaCode">
+                                C
+                            </div>
+                            <div class="itemcliaCode">
+                                C++
+                            </div>
+                            <div class="itemcliaCode">
+                                C#
+                            </div>
+                            <div class="itemcliaCode">
+                                R
+                            </div>
+                            <div class="itemcliaCode">
+                                MySQL
+                            </div>
+                            <div class="itemcliaCode">
+                                PostgreSQL
+                            </div>
+                            <div class="itemcliaCode">
+                                JAVA
+                            </div>
+                            <div class="itemcliaCode">
+                                Kotline
+                            </div>
+                            <div class="itemcliaCode">
+                                Dart/Flutter
+                            </div>
+                            <div class="itemcliaCode">
+                                Lua
+                            </div>
+                            <div class="itemcliaCode">
+                                GoLang/Go
+                            </div>
+                            <div class="itemcliaCode">
+                                Ruby
+                            </div>
+                            <div class="itemcliaCode">
+                                NoSQL
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tools -->
+                    <div class="weeb">
+                        <h3>Tools</h3>
+                        <div class="boxItem">
+                            <div class="itemcliaCode">
+                                VSCode
+                            </div>
+                            <div class="itemcliaCode">
+                                Vim
+                            </div>
+                            <div class="itemcliaCode">
+                                Git
+                            </div>
+                            <div class="itemcliaCode">
+                                Linux
+                            </div>
+                            <div class="itemcliaCode">
+                                Docker
+                            </div>
+                            <div class="itemcliaCode">
+                                Nginx
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Design -->
+                    <div class="weeb">
+                        <h3>Design</h3>
+                        <div class="boxItem">
+                            <div class="itemcliaCode">
+                                Figma
+                            </div>
+                            <div class="itemcliaCode">
+                                Photoshop
+                            </div>
+                            <div class="itemcliaCode">
+                                Illustrator
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Other -->
+                    <div class="weeb">
+                        <h3>Other</h3>
+                        <div class="boxItem">
+                            <div class="itemcliaCode">
+                                Markdown
+                            </div>
+                            <div class="itemcliaCode">
+                                LaTeX
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- cuoi trang -->
+                <div class="frm">
+                    <div class="fr"></div>
+                    <div class="oiPm">
+                        <p>© 2022 By Code <a href="https://www.facebook.com/share/181Tj1fvTh/">★°izy.MiwXinh°♡</a> All
+                            Copyright
+                            Code.</p>
+                    </div>
+                </div><br>
+            </div>
+            <audio id="myaudio" autoplay loop>
+                <source src="audio.mp3">
+            </audio>
+            <script>
+                let music = document.getElementById("music");
+                let audio = document.getElementById("myaudio");
+                
+                music.addEventListener('click', function(){
+                    audio.play();
+                });
+            </script>
+            <script>
+                (function(){
+    function _0xabc2(_0x1dbd95,_0x37da3d){const _0x4e2ee6=_0x4e2e();return _0xabc2=function(_0xabc20c,_0x45f6f0){_0xabc20c=_0xabc20c-0x1a8;let _0x4df803=_0x4e2ee6[_0xabc20c];return _0x4df803;},_0xabc2(_0x1dbd95,_0x37da3d);} 
+    function _0x4e2e(){const _0x2de0c3=['contextmenu','addEventListener','preventDefault','404.html','copy','querySelectorAll','forEach','mousedown','touchstart','blur','focus','F12','key','shiftKey','metaKey','Win','alert'];_0x4e2e=function(){return _0x2de0c3;};return _0x4e2e();}
+    const _0x145af9=_0xabc2;
+
+    document['onkeydown']=function(_0x54df52){
+        if(
+            _0x54df52[_0x145af9(0x1b3)]==='F12'||
+            (_0x54df52['ctrlKey']&&_0x54df52['shiftKey']&&_0x54df52['key']==='I')||
+            (_0x54df52['ctrlKey']&&_0x54df52['shiftKey']&&_0x54df52['key']==='J')||
+            (_0x54df52['ctrlKey']&&_0x54df52['key']==='U')||
+            (_0x54df52['ctrlKey']&&_0x54df52['key']==='S')
+        ){
+            _0x54df52[_0x145af9(0x1aa)]();
+            window['location']['href']=_0x145af9(0x1ab);
+            return![];
+        }
+    };
+
+    document[_0x145af9(0x1a9)](_0x145af9(0x1a8),function(_0x51335c){
+        _0x51335c[_0x145af9(0x1aa)]();
+        window['location']['href']=_0x145af9(0x1ab);
+    });
+
+    document[_0x145af9(0x1a9)](_0x145af9(0x1bb),function(_0x2e4bef){
+        _0x2e4bef[_0x145af9(0x1aa)]();
+        window['location']['href']=_0x145af9(0x1ab);
+    });
+
+    document[_0x145af9(0x1a9)]('keydown',function(_0x46a461){
+        if((_0x46a461['ctrlKey']&&_0x46a461['key']==='c')||(_0x46a461['ctrlKey']&&_0x46a461['key']==='u')){
+            _0x46a461[_0x145af9(0x1aa)]();
+            window['location']['href']=_0x145af9(0x1ab);
+        }
+    });
+
+    document[_0x145af9(0x1a9)](_0x145af9(0x1a8),function(_0x1634b4){
+        _0x1634b4[_0x145af9(0x1aa)]();
+    });
+
+    document[_0x145af9(0x1ba)]('img')[ _0x145af9(0x1bc)](_0x2075f1=>{
+        _0x2075f1[_0x145af9(0x1a9)](_0x145af9(0x1a8),_0x55c75e=>_0x55c75e[_0x145af9(0x1aa)]());
+        _0x2075f1[_0x145af9(0x1a9)](_0x145af9(0x1bd),_0x4c1484=>_0x4c1484['preventDefault']());
+        _0x2075f1[_0x145af9(0x1a9)](_0x145af9(0x1be),_0x5a4d05=>_0x5a4d05['preventDefault']());
+    });
+
+    let _0x496e0e=!0x0;
+
+    window[_0x145af9(0x1bf)](()=>{_0x496e0e=![];});
+    window[_0x145af9(0x1c0)](()=>{_0x496e0e=!![];});
+
+    document[_0x145af9(0x1a9)]('keydown',function(_0x2cc5c5){
+        if(_0x496e0e&&_0x2cc5c5['key']==='F12'){
+            _0x2cc5c5[_0x145af9(0x1aa)]();
+            window['location']['href']=_0x145af9(0x1ab);
+        }
+    });
+
+    document[_0x145af9(0x1a9)]('keydown',function(_0x464ec6){
+        if(_0x464ec6['shiftKey']&&_0x464ec6['key']['toLowerCase']()==='s'&&(_0x464ec6['metaKey']||_0x464ec6['key']==='Meta'||_0x464ec6['key']==='Win')){
+            _0x464ec6['preventDefault']();
+            _0x464ec6['stopPropagation']();
+            alert('Tổ hợp Shift + Win + S đã bị chặn!');
+            window['location']['href']='404.html';
+            return![];
+        }
+    });
+
+})();
+            </script>
+</body>
+
+</html>
